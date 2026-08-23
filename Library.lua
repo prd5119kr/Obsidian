@@ -31,14 +31,6 @@ local Tooltips = {}
 local BaseURL = "https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/"
 local CustomImageManager = {}
 local CustomImageManagerAssets = {
-    -- 여기에 새로 추가!
-    CustomBackground = {
-        RobloxId = 135406401628686,
-        Path = "Obsidian/assets/CustomBackground.png",
-        URL = BaseURL .. "assets/CustomBackground.png",
-        Id = nil,
-    },
-    
     TransparencyTexture = {
         RobloxId = 139785960036434,
         Path = "Obsidian/assets/TransparencyTexture.png",
@@ -270,13 +262,12 @@ local Library = {
     --// Scheme \\--
     IsLightTheme = false,
     Scheme = {
-       BackgroundColor = Color3.fromRGB(15, 15, 15),
-       MainColor = Color3.fromRGB(25, 25, 25),
-       AccentColor = Color3.fromRGB(255, 215, 0)
-       OutlineColor = Color3.fromRGB(40, 40, 40),
-       FontColor = Color3.new(1, 1, 1),
-       Font = Font.fromEnum(Enum.Font.Code),
-    },
+        BackgroundColor = Color3.fromRGB(15, 15, 15),
+        MainColor = Color3.fromRGB(25, 25, 25),
+        AccentColor = Color3.fromRGB(255, 215, 0),
+        OutlineColor = Color3.fromRGB(40, 40, 40),
+        FontColor = Color3.new(1, 1, 1),
+        Font = Font.fromEnum(Enum.Font.Code),
 
         RedColor = Color3.fromRGB(255, 50, 50),
         DestructiveColor = Color3.fromRGB(220, 38, 38),
@@ -393,16 +384,16 @@ local Templates = {
         EnableSidebarResize = false,
         EnableCompacting = true,
         DisableCompactingSnap = false,
-        SidebarCompacted = false,
+        SidebarCompacted = true,
         MinContainerWidth = 256,
 
         --// Snapping \\--
-        MinSidebarWidth = 128,
+        MinSidebarWidth = 48,
         SidebarCompactWidth = 48,
         SidebarCollapseThreshold = 0.5,
 
         --// Dragging \\--
-        CompactWidthActivation = 128,
+        CompactWidthActivation = 48,
 
         --// Background \\--
         BackgroundImage = "",
