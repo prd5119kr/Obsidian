@@ -261,13 +261,15 @@ local Library = {
 
     --// Scheme \\--
     IsLightTheme = false,
-    Scheme = { BackgroundImage = "rbxassetid://135406401628686", -- 배경 이미지 추가
-        BackgroundColor = Color3.fromRGB(15, 15, 15),
-        MainColor = Color3.fromRGB(25, 25, 25),
-        AccentColor = Color3.fromRGB(255, 255, 255),
-        OutlineColor = Color3.fromRGB(40, 40, 40),
-        FontColor = Color3.new(1, 1, 1),
-        Font = Font.fromEnum(Enum.Font.Code),
+    Scheme = {
+       BackgroundColor = Color3.fromRGB(15, 15, 15),
+       MainColor = Color3.fromRGB(25, 25, 25),
+       AccentColor = Color3.fromRGB(255, 255, 255),
+       OutlineColor = Color3.fromRGB(40, 40, 40),
+       FontColor = Color3.new(1, 1, 1),
+       Font = Font.fromEnum(Enum.Font.Code),
+       BackgroundImage = "rbxassetid://135406401628686", -- 여기에 추가!
+    },
 
         RedColor = Color3.fromRGB(255, 50, 50),
         DestructiveColor = Color3.fromRGB(220, 38, 38),
