@@ -276,7 +276,6 @@ local Library = {
        OutlineColor = Color3.fromRGB(40, 40, 40),
        FontColor = Color3.new(1, 1, 1),
        Font = Font.fromEnum(Enum.Font.Code),
-       BackgroundImage = "rbxassetid://135406401628686", -- 여기에 추가!
     },
 
         RedColor = Color3.fromRGB(255, 50, 50),
