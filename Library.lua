@@ -261,7 +261,7 @@ local Library = {
 
     --// Scheme \\--
     IsLightTheme = false,
-    Scheme = {
+    Scheme = { BackgroundImage = "rbxassetid://135406401628686", -- 배경 이미지 추가
         BackgroundColor = Color3.fromRGB(15, 15, 15),
         MainColor = Color3.fromRGB(25, 25, 25),
         AccentColor = Color3.fromRGB(255, 255, 255),
